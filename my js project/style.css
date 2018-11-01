@@ -1,0 +1,90 @@
+.b1 {
+    background-image: url(images/bg1.jpg);
+    
+
+}
+
+
+.two {
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+ .start{
+        background-color: black;
+    }
+
+    .main {
+
+        border: solid 2px black;
+        width: 500px;
+         padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top: 200px;
+
+
+    }
+
+    .text {
+        text-align: center;
+        font-family: monospace;
+        font-size: 32px;
+        color: wheat;
+        padding: 20px
+    }
+
+    #loader {
+        border: 15px solid #C0C0C0;
+        border-radius: 50%;
+        border-top: 15px solid yellow;
+        width: 80px;
+        height: 80px;
+        margin-left: 180px;
+        animation: spin linear 2s infinite;
+
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes fadeout {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+.canva {
+     padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+/*
+.canva {
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+*/
